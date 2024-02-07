@@ -116,7 +116,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 			MoveWindow(hwnd, 0, 0, 300, 300, true);	
 		}
 		if (wParam == VK_DOWN) {
-
+		 
 			RECT rect;
 			GetWindowRect(hwnd, &rect);
 			int width = rect.right - rect.left;
